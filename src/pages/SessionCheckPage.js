@@ -14,7 +14,7 @@ const SessionCheck = () => {
                     const data = await response.text(); // 문자열로 반환받음
                     setSessionMessage(data);
                 } else {
-                    setSessionMessage('세션을 확인할 수 없습니다.');
+                    setSessionMessage('세션을 확인할 수 없습니다.test1');
                 }
             } catch (error) {
                 console.error('세션 확인 중 오류 발생:', error);
