@@ -14,7 +14,7 @@ const LoginPage = () => {
     const handleLogin = async (e) => {
         e.preventDefault();  // 기본 폼 제출 방지
         try {
-            const response = await fetch('http://localhost:9000/members/add', {
+            const response = await fetch('http://116.121.184.161:9000/members/add', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
