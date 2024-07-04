@@ -6,7 +6,7 @@ const SessionCheck = () => {
     useEffect(() => {
         const checkSession = async () => {
             try {
-                const response = await fetch('http://116.121.184.161:9000/session-info', {
+                const response = await fetch('http://localhost:9000/session-info', {
                     method: 'GET',
                     credentials: 'include',
                 });
